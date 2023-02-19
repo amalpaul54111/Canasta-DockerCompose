@@ -42,7 +42,6 @@ services:
       - ./extensions:/var/www/mediawiki/w/user-extensions
       - ./skins:/var/www/mediawiki/w/user-skins
       - ./config:/mediawiki/config
-      - ./images:/mediawiki/images
       - sitemap:/mediawiki/sitemap
 
   elasticsearch:
